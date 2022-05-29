@@ -12,6 +12,7 @@ class Category {
 
 List<Category> categoryList = [
   Category(
+
     name: 'Development',
     noOfCourses: 55,
     thumbnail: 'assets/icons/laptop.jpg',

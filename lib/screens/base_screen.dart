@@ -26,6 +26,7 @@ class _BaseScreenState extends State<BaseScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body:  Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
